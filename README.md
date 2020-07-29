@@ -1,0 +1,78 @@
+# BlazorJQueryUIWrapper
+BlazorJQueryUI is a Blazor Library that wraps jQueryUI in C# so you can use jQueryUI components and function without leaving the comfort of C#.
+
+## Change log
+- **Version 0.0.1 - 2020-07-29**
+  - Functionality added
+    - Project setup
+    
+## Full list of functionality currently supported (In alphabetical order)
+- [ ] .addClass()
+- [ ] .animate().
+- [ ] .cssClip()
+- [ ] .disableSelection()
+- [ ] .effect()
+- [ ] .enableSelection()
+- [ ] .hide()
+- [ ] .labels()
+- [ ] .position()
+- [ ] .removeClass()
+- [ ] .removeUniqueId()
+- [ ] .scrollParent()
+- [ ] .show()
+- [ ] .switchClass()
+- [ ] .toggle()
+- [ ] .toggleClass()
+- [ ] .transfer()
+- [ ] .uniqueId()
+- [ ] :data() Selector
+- [ ] :focusable Selector
+- [ ] :tabbable Selector
+- [ ] Accordion Widget
+- [ ] Autocomplete Widget
+- [ ] Blind Effect
+- [ ] Bounce Effect
+- [ ] Button Widget
+- [ ] Buttonset Widget
+- [ ] Checkboxradio Widget
+- [ ] Clip Effect
+- [ ] Controlgroup Widget
+- [ ] Datepicker Widget
+- [ ] Dialog Widget
+- [ ] Draggable Widget
+- [ ] Drop Effect
+- [ ] Droppable Widget
+- [ ] Explode Effect
+- [ ] Fade Effect
+- [ ] Fold Effect
+- [ ] Form Reset Mixin
+- [ ] Highlight Effect
+- [ ] jQuery.effects.clipToBox()
+- [ ] jQuery.effects.createPlaceholder()
+- [ ] jQuery.effects.define()
+- [ ] jQuery.effects.removePlaceholder()
+- [ ] jQuery.effects.restoreStyle()
+- [ ] jQuery.effects.saveStyle()
+- [ ] jQuery.effects.scaledDimensions()
+- [ ] jQuery.ui.keyCode
+- [ ] Menu Widget
+- [ ] Mouse Interaction
+- [ ] Progressbar Widget
+- [ ] Puff Effect
+- [ ] Pulsate Effect
+- [ ] Resizable Widget
+- [ ] Scale Effect
+- [ ] Selectable Widget
+- [ ] Selectmenu Widget
+- [ ] Shake Effect
+- [ ] Size Effect
+- [ ] Slide Effect
+- [ ] Slider Widget
+- [ ] Sortable Widget
+- [ ] Spinner Widget
+- [ ] Tabs Widget
+- [ ] Tooltip Widget
+- [ ] Transfer Effect
+- [ ] Widget Factory
+- [ ] Widget Plugin Bridge
+
