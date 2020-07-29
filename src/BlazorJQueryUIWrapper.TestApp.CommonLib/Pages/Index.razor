@@ -1,7 +1,16 @@
 ﻿@page "/"
+@inject BlazorJQueryUIWrapperDOM DOM
 
-<h1>Hello, world!</h1>
+<h1>Welcome on this test page of BlazorJQueryUI</h1>
+<button @onclick="TriggerSpinner">Spinner</button>
+<h2>Components : </h2>
+<input id="spinner">
 
-Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+
+    async Task TriggerSpinner()
+    {
+        await DOM.Spinner("#spinner");
+    }
+}

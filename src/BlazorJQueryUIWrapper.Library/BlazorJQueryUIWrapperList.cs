@@ -14,6 +14,7 @@ namespace BlazorJQueryUIWrapper.Library
 
         // jQueryUI List
         public const string Draggable = BlazorJQueryUIWrapperInterop + "." + "BQUI_Draggable";
+        public const string Spinner = BlazorJQueryUIWrapperInterop + "." + "BQUI_Spinner";
 
 
     }

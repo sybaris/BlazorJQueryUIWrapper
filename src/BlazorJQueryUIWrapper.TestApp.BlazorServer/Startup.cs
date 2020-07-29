@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorJQueryUIWrapper.TestApp.BlazorServer.Data;
+using BlazorJQueryUIWrapper.Library.Extensions;
 
 namespace BlazorJQueryUIWrapper.TestApp.BlazorServer
 {
@@ -26,6 +27,7 @@ namespace BlazorJQueryUIWrapper.TestApp.BlazorServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddBlazorJQueryUI();
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
