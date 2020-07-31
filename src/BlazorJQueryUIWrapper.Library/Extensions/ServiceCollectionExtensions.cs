@@ -9,7 +9,8 @@ namespace BlazorJQueryUIWrapper.Library.Extensions
     {
         public static IServiceCollection AddBlazorJQueryUI(this IServiceCollection services)
         {
-            services.AddScoped<BlazorJQueryUIWrapperDOM>();
+            // Commented because not a new component...
+            //services.AddScoped<BlazorJQueryUIWrapperDOM>();
             return services;
         }
     }

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using BlazorJQueryUIWrapper.Library.Widget;
+using BlazorQuery.Library;
+using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using System;
 using System.Collections.Generic;
@@ -8,18 +10,21 @@ using System.Threading.Tasks;
 
 namespace BlazorJQueryUIWrapper.Library
 {
-    public class BlazorJQueryUIWrapperDOM : ComponentBase
+    public static class BlazorJQueryUIWrapperDOM
     {
-        private IJSRuntime JSRuntime { get; set; }
-
-        public BlazorJQueryUIWrapperDOM(IJSRuntime JSRuntime)
+        
+        public static async Task<BlazorQueryDOM> Spinner(this BlazorQueryDOM blazorQueryDOM)
         {
-            this.JSRuntime = JSRuntime;
+            await blazorQueryDOM.JSRuntimeInstance.InvokeAsync<Task>(BlazorJQueryUIWrapperList.Spinner, blazorQueryDOM.CurrentSelector);
+            return blazorQueryDOM;
         }
 
-        public async Task Spinner(string CurrentSelector)
+        public async static Task<BlazorQueryDOM> Spinner(this Task<BlazorQueryDOM> dom) => await (await dom).Spinner();
+
+        public static async Task<BlazorQueryDOM> Spinner(this BlazorQueryDOM blazorQueryDOM, SpinnerWidget spinnerWidget)
         {
-            await JSRuntime.InvokeAsync<Task>(BlazorJQueryUIWrapperList.Spinner, CurrentSelector); 
+            await blazorQueryDOM.JSRuntimeInstance.InvokeAsync<Task>(BlazorJQueryUIWrapperList.Spinner, blazorQueryDOM.CurrentSelector);
+            return blazorQueryDOM;
         }
 
 

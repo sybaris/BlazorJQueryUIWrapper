@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject BlazorJQueryUIWrapperDOM DOM
+@inject BlazorQueryDOM DOM
 
 <h1>Welcome on this test page of BlazorJQueryUI</h1>
 <button @onclick="TriggerSpinner">Spinner</button>
@@ -11,6 +11,7 @@
 
     async Task TriggerSpinner()
     {
-        await DOM.Spinner("#spinner");
+        //await (await DOM.Select("#spinner")).Spinner();
+        await DOM.Select("#spinner").Spinner();
     }
 }

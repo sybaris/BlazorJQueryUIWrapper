@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorJQueryUIWrapper.TestA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorJQueryUIWrapper.TestApp.BlazorServer", "BlazorJQueryUIWrapper.TestApp.BlazorServer\BlazorJQueryUIWrapper.TestApp.BlazorServer.csproj", "{F2140DFC-F706-49D1-B549-583C9D9B6CE0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorQuery.Library", "..\..\BlazorQuery\src\BlazorQuery.Library\BlazorQuery.Library.csproj", "{F98A33A1-AB0C-4D8E-BED2-38FA7F34579E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F2140DFC-F706-49D1-B549-583C9D9B6CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2140DFC-F706-49D1-B549-583C9D9B6CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2140DFC-F706-49D1-B549-583C9D9B6CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98A33A1-AB0C-4D8E-BED2-38FA7F34579E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98A33A1-AB0C-4D8E-BED2-38FA7F34579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98A33A1-AB0C-4D8E-BED2-38FA7F34579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98A33A1-AB0C-4D8E-BED2-38FA7F34579E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
